@@ -37,3 +37,9 @@
     height: 4rem;
     /* font-family: 'Kanit', sans-serif; */
 }
+
+@media (min-width: 767px){
+    .right-nav{
+        right: -1500px;
+    }
+}
