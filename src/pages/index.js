@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <main>
-        <h1>Home Page</h1>
+        <h1 className='page-header'>BeeCreditSaavy</h1>
       </main>
     </Layout>
   )

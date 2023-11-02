@@ -20,11 +20,11 @@
     height: 0.22rem;
     padding: 2px 0 2px 0;
     margin: 5px 0 2px 0; 
-    background: rgb(76, 76, 76);
+    background: rgb(159, 136, 1);
 }
 
 .hamburger-icon.open{
-    background: white;
+    /* background: white; */
 }
 
 @media (min-width: 767px) {

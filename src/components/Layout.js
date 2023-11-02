@@ -1,6 +1,7 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 import Hamburger from './Nav/Hamburger'
+import TopNav from './Nav/TopNav'
 
 const GlobalStyle = createGlobalStyle`
 *{
@@ -30,6 +31,10 @@ li{
 h1, h2, h3, h4, h5, h6, p{
     color: white;
 }
+
+h1.page-header{
+    margin-top: 150px;
+}
 `
 
 const Layout = ({children}) => {
@@ -37,6 +42,7 @@ const Layout = ({children}) => {
     <div>
       <GlobalStyle />
       <Hamburger />
+      <TopNav />
       <section>{children}</section>
     </div>
   )

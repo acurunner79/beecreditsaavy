@@ -1,0 +1,31 @@
+.navbar{
+    display: none;
+}
+
+#navbar-link{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+@media (min-width: 767px) {
+    .navbar{
+        display: inline-block;
+        width: 100vw;
+        height: 5rem;
+        background-color: rgb(76, 76, 76);
+    }
+    
+    ul.navbar-link-container{
+        height: 5rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    /* a li#navbar-link{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+
+    } */
+}
