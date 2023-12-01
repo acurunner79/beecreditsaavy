@@ -6,7 +6,7 @@ import '../styles/contact.css'
 
 const Contact = () => {
 
-  const [state, handleSubmit] = useForm("mleyjvda")
+  const [state, handleSubmit] = useForm("xyyqqdwa")
 
   if(state.succeeded){
     return( 
@@ -26,22 +26,40 @@ const Contact = () => {
         <form className='form-card' onSubmit={handleSubmit}>
           <ValidationError field="email" prefix="Email" errors={state.errors} />
           <label className='form-label'>First Name
-            <input className='form-input'/>
+            <input 
+              className='form-input'
+              name='first name'
+              type='text'/>
           </label>
           <br/>
           <label className='form-label'>Last Name
-            <input className='form-input'/>
+            <input 
+              className='form-input'
+              name='last name'
+              type='text'/>
           </label>
           <br/>
           <label className='form-label'>Email
-            <input className='form-input'/>
+            <input 
+              className='form-input'
+              name='email'
+              type='email'/>
           </label>
           <br/>
-          <label className='form-label'>Message
-            <textarea className='form-textarea'/>
+          <label 
+            className='form-label'>Message
+            <textarea 
+              className='form-textarea'
+              name='message'
+              type='text'/>
           </label>
           <br/>
-          <button className='form-button'>Submit</button>
+          <button 
+            type='submit'
+            className='form-button'
+            disabled={state.submitting}
+          >Submit
+          </button>
         </form>
       </div>
     </Layout>

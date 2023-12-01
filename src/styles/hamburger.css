@@ -23,9 +23,9 @@
     background: rgb(159, 136, 1);
 }
 
-.hamburger-icon.open{
-    /* background: white; */
-}
+/* .hamburger-icon.open{
+    background: white;
+} */
 
 @media (min-width: 767px) {
     .hamburger-container {

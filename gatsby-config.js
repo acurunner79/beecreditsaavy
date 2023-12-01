@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `beecreditsaavy`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `BeeCreditSaavy`,
+    siteUrl: `https://www.beecreditsaavy.com`
   },
   plugins: ["gatsby-plugin-styled-components"]
 };

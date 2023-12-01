@@ -13,9 +13,9 @@ const RightNav = () => {
             <Link to='/contact'>
                 <li id='right-nav-link'>Contact</li>
             </Link>
-            {/* <Link to='/about'>
-                <li id='right-nav-link'>About</li>
-            </Link> */}
+            <Link to='/login'>
+                <li id='right-nav-link'>Login</li>
+            </Link>
         </ul>
     </nav>
     </div>
